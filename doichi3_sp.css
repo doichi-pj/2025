@@ -403,6 +403,17 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 #overlay ul li a:hover {
   color: #A2968C!important;
 }
+header .sp{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    // .mainのpadding-topと合わせる
+    height: 20%;
+}
 
 /* フェードイン */
 .fadein {
