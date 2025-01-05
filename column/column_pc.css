@@ -133,27 +133,20 @@ html {
 h2 {
 	font-family: "Kaisei Decol", sans-serif;
 	color: #A2968C;
-  font-weight: bold;
-	font-size:40px
+ 	font-weight: bold;
+	font-size:25px;
+	border-top: 3px solid #A2968C;
+	border-bottom: 3px solid #A2968C;
+	padding: 0;
 }
 
 h3 {
 	font-family: "Kaisei Decol", sans-serif;
 	color: #A2968C;
-  font-weight: bold;
-	font-size:30px;
-	border-top: 3px solid #A2968C;
-	border-bottom: 3px solid #A2968C;
-  padding: 0.1em 1em;
-}
-
-h4 {
-	font-family: "Kaisei Decol", sans-serif;
-	color: #A2968C;
-	font-size:25px;
-  font-weight: bold;
-  background: transparent;
-  border-bottom: solid 2px #A2968C;
+	font-size:20px;
+	font-weight: bold;
+	background: transparent;
+	border-bottom: solid 2px #A2968C;
 }
 
 /* 上に戻るボタン */
