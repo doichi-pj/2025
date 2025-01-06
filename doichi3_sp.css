@@ -410,9 +410,6 @@ header .sp{
     right: 0;
     left: 0;
     bottom: 0;
-    width: 100%;
-    // .mainのpadding-topと合わせる
-    height: 20%;
 }
 
 /* フェードイン */
