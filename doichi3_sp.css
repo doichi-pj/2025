@@ -406,10 +406,6 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 header .sp{
     position: fixed;
     z-index: 2;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
 }
 
 /* フェードイン */
