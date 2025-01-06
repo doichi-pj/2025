@@ -298,114 +298,112 @@ img.other {
 
 /* メニュー(SP) */
 @keyframes bugfix {
-  from {
-    padding: 0;
-  }
-  to {
-    padding: 0;
-  }
+	from {
+	padding: 0;
+	}
+	to {
+	padding: 0;
+	}
 }
 @-webkit-keyframes bugfix {
-  from {
-    padding: 0;
-  }
-  to {
-    padding: 0;
-  }
+	from {
+ 	padding: 0;
+  	}
+	to {
+	padding: 0;
+  	}
 }
 #overlay-button {
-  position: absolute;
-  right: 1em;
-  top: 1em;
-  padding: 26px 11px;
-  z-index: 5;
-  cursor: pointer;
-  user-select: none;
+	position: absolute;
+	right: 1em;
+ 	top: 1em;
+	padding: 26px 11px;
+	z-index: 5;
+	cursor: pointer;
+	user-select: none;
 }
 #overlay-button span {
-  height: 4px;
-  width: 35px;
-  border-radius: 2px;
-  background-color: #fff;
-  position: relative;
-  display: block;
-  transition: all .2s ease-in-out;
+	height: 4px;
+	width: 35px;
+	border-radius: 2px;
+	background-color: #fff;
+	position: relative;
+	display: block;
+ 	transition: all .2s ease-in-out;
 }
 #overlay-button span:before {
-  top: -10px;
-  visibility: visible;
+	top: -10px;
+	visibility: visible;
 }
 #overlay-button span:after {
-  top: 10px;
+	top: 10px;
 }
 #overlay-button span:before, #overlay-button span:after {
-  height: 4px;
-  width: 35px;
-  border-radius: 2px;
-  background-color: #fff;
-  position: absolute;
-  content: "";
-  transition: all .2s ease-in-out;
+	height: 4px;
+	width: 35px;
+	border-radius: 2px;
+	background-color: #fff;
+	position: absolute;
+	content: "";
+	transition: all .2s ease-in-out;
 }
 #overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
-  background: #fff;
+	background: #fff;
 }
 
 input[type=checkbox] {
-  display: none;
+  	display: none;
 }
 
 input[type=checkbox]:checked ~ #overlay {
-  visibility: visible; 
+	visibility: visible; 
 }
 
 input[type=checkbox]:checked ~ #overlay-button:hover span, input[type=checkbox]:checked ~ #overlay-button span {
-  background: transparent;
+	background: transparent;
 }
 input[type=checkbox]:checked ~ #overlay-button span:before {
-  transform: rotate(45deg) translate(7px, 7px);
+	transform: rotate(45deg) translate(7px, 7px);
 }
-
 input[type=checkbox]:checked ~ #overlay-button span:after {
-  transform: rotate(-45deg) translate(7px, -7px);
+	transform: rotate(-45deg) translate(7px, -7px);
 }
 
 #overlay {
-  height: 100vh;
-  width: 100vw;
-  background: #151512;
-  z-index: 2;
-  visibility: hidden;
-  position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background: #151512;
+	z-index: 2;
+	visibility: hidden;
+	position: fixed;
 }
 #overlay.active {
-
 }
 #overlay ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  height: 100vh;
-  padding-left: 0;
-  list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	height: 100vh;
+	padding-left: 0;
+	list-style-type: none;
 }
 #overlay ul li {
-  padding: 1em;
+	padding: 1em;
 }
 #overlay ul li a {
-  color: #FFF;
-  text-decoration: none;
-  font-size: 1.5em;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 1.5em;
 	font-family: "Kaisei Decol", sans-serif;
 }
 #overlay ul li a:hover {
-  color: #A2968C!important;
+	color: #A2968C!important;
 }
 header .sp{
-    position: fixed;
-    z-index: 2;
+	position: fixed;
+	z-index: 2;
 }
 
 /* フェードイン */
