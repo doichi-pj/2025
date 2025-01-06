@@ -54,19 +54,19 @@ table {
 
 /* スマホだけ・PCだけ */
 @media(min-width:751px){
-    .sp{
-        display: none !important;
-    }
+	.sp{
+	display: none !important;
+	}
 }
 @media(max-width:750px){
-    .pc{
-        display: none !important;
-    }
+	.pc{
+	display: none !important;
+	}
 }
 
 /* 背景 */
 body {
-  color: #FFF;
+	color: #FFF;
 	background: #FFF;
 	background-image: url("images/bg.webp");
 	background-size: cover;
@@ -76,14 +76,14 @@ body {
 
 /* 真ん中の部分 */
 .main {
-  height: 100vh;
+	height: 100vh;
 	font-family: "Shippori Mincho", sans-serif;
 	font-size: 16px;
 	line-height: 2;	
 }
 .area1 {
-  height: 100vh;
-  background-color: rgba(255,255,255,0);
+	height: 100vh;
+	background-color: rgba(255,255,255,0);
 	padding: 5%;
 	text-align: center;
 }
@@ -120,12 +120,12 @@ a.current {
 
 /* 太字 */
 #bold{
-  font-weight: bold;
+	font-weight: bold;
 }
 
 /* p要素の余白 */
 p {
-  margin: 2em 1em;
+	margin: 2em 1em;
 }
 
 /* 左よせ */
@@ -152,34 +152,34 @@ p {
 
 /* スムーススクロール */
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 /* 見出し */
 h2 {
 	font-family: "Kaisei Decol", sans-serif;
 	color: #A2968C;
-  font-weight: bold;
+	font-weight: bold;
 	font-size:40px
 }
 
 h3 {
 	font-family: "Kaisei Decol", sans-serif;
 	color: #A2968C;
-  font-weight: bold;
+	font-weight: bold;
 	font-size:30px;
 	border-top: 3px solid #A2968C;
 	border-bottom: 3px solid #A2968C;
-  padding: 0.1em 1em;
+	padding: 0.1em 1em;
 }
 
 h4 {
 	font-family: "Kaisei Decol", sans-serif;
 	color: #A2968C;
 	font-size:25px;
-  font-weight: bold;
-  background: transparent;
-  border-bottom: solid 2px #A2968C;
+	font-weight: bold;
+	background: transparent;
+	border-bottom: solid 2px #A2968C;
 }
 
 /* 上に戻るボタン */
@@ -247,14 +247,14 @@ a.btn2:hover {
 
 /* アンカー用 */
 a.anchor{
-    display: block;
-    padding-top: 4em;
-    margin-top: -4em;
+	display: block;
+	padding-top: 4em;
+	margin-top: -4em;
 }
 
 /* グリッドレイアウト（小） */
 #list-s {
-  display: grid;
+	display: grid;
 	grid-template-columns: 45% 45%;
 	gap: 40px;
 	place-content: center;
@@ -263,7 +263,7 @@ a.anchor{
 
 /* グリッドレイアウト（↑の内側） */
 #list-in {
-  display: grid;
+	display: grid;
 	grid-template-columns: 30% 65%;
 	gap: 10px;
 	place-content: center;
@@ -272,7 +272,7 @@ a.anchor{
 
 /* グリッドレイアウト（日程） */
 #schedule {
-  display: grid;
+	display: grid;
 	grid-template-columns: 10% 20%;
 	gap: 5px;
 	place-content: center;
@@ -298,12 +298,12 @@ img.other {
 
 /* メニュー(PC) */
 nav {
-  width: 100%;
-  height: 50px;
-  background-color: #151512;
-  padding-top: 5px;
-  box-sizing: border-box;
-  position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: #151512;
+	padding-top: 5px;
+	box-sizing: border-box;
+	position: fixed;
 	z-index: 100; 
 	box-shadow: 0 0 15px 0 rgba(0,0,0,1);
 }
@@ -315,7 +315,7 @@ ul {
 	text-align: center;
 }
 li {
-  list-style: none;
+	list-style: none;
 	font-family: "Kaisei Decol", sans-serif;
 	font-size: 20px;
 	font-weight: bold;
@@ -337,13 +337,13 @@ li {
 
 /* サムネイル */
 .thumbnail {
-    cursor: pointer;
-    width: 120px;
-    border-radius: 5px;
-    transition: transform 0.3s;
+	cursor: pointer;
+	width: 120px;
+	border-radius: 5px;
+	transition: transform 0.3s;
 }
 .thumbnail:hover {
-    transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 /* モーダルウィンドウ */
@@ -358,29 +358,29 @@ li {
 	z-index: 150;
 }
 .modal-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: transparent;
-    width: 1000px;
-    height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: transparent;
+	width: 1000px;
+	height: auto;
 }
 .modal-image {
-    width: 1151512px;
-    max-width: 100%;
-    max-height: 100%;
+	width: 1151512px;
+	max-width: 100%;
+	max-height: 100%;
 	border-radius: 5px;
 }
 .close {
-    position: absolute;
-    top: -20px;
-    right: 5px;
-    font-size: 40px;
-    color: #151512;
-    cursor: pointer;
-    font-weight: bold;
+	position: absolute;
+	top: -20px;
+	right: 5px;
+	font-size: 40px;
+	color: #151512;
+	cursor: pointer;
+	font-weight: bold;
 }
 .close:hover {
-    color: #979797;
+	color: #979797;
 }
