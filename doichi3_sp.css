@@ -278,6 +278,10 @@ a.anchor{
 	place-content: center;
 }
 
+img {
+	pointer-events: none; /* 保存禁止 */
+}
+
 /* スタッフ */
 img.staff {
 	width: 60%;
