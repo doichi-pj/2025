@@ -14,6 +14,7 @@
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	<link rel="stylesheet" type="text/css" href="doichi3_pc.css">
 	<link rel="stylesheet" media="screen and (max-width: 480px)" type="text/css" href="doichi3_sp.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 
@@ -31,7 +32,7 @@
 				</ul>
 			</nav>
 		</div>
-		
+
 		<div class="sp">
 			<input type="checkbox" id="overlay-input" />
 			<label for="overlay-input" id="overlay-button"><span></span></label>
@@ -49,13 +50,306 @@
 
 		<div class="main">
 
-		  <section class="area2">
-				<h3>奴隷カタログ</h3>
-					<img src="images/wait.webp" alt="入荷待ち" class="other">
+			<section class="area2">
+
+				<div class="index">
+					<a href="#d1" class="btn2">舞台1日目</a>
+					<a href="#d2" class="btn2">舞台2日目</a>
+					<a href="#d3" class="btn2">舞台3日目</a>
+					<a href="#f1" class="btn2">フリマ企画</a>
+					<a href="#f2" class="btn2">フリマ個人</a>
+				</div>
+
+				<a id="d1" class="anchor"></a>
+				<h3>舞台 - 1日目　2/21(金)</h3>
+					<div id="list-s">
+
+						<div>
+							<h4>21:00～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/清葉雪見さん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>21:30～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/ぱんださん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>22:00～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/chara/yoshida_i.webp" class="thumbnail" data-large="images/chara/yoshida_s.webp" alt="吉田さん">
+								</div>
+								<div class="left">
+									左手の義手が特徴的な、タバコが手放せないヘビースモーカー。<br>
+									戦士として様々な場所を渡り歩いてきたので実践経験が豊富である。<br>
+									オーナー/吉田さん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>23:00～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/わざきさん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>23:30～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/うつぎさん
+								</div>
+							</div>
+						</div>
+
+					</div>
+			</section>
+
+			<section class="area2">
+				<a id="d2" class="anchor"></a>
+				<h3>舞台 - 2日目　2/22(土)</h3>
+					<div id="list-s">
+
+						<div>
+							<h4>21:00～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/わんころさん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>21:30～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/chara/kokonoe_i.webp" class="thumbnail" data-large="images/chara/kokonoe_s.webp" alt="九重みつるさん">
+								</div>
+								<div class="left">
+									大人しく従順な人間の奴隷。<br>
+									命令にもよく従う良い子とのことだが、人間と主張する割には一部やや疑惑とされているようだ。<br>
+									オーナー/九重みつるさん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>22:00～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/ぴっきさん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>23:00～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/ロークライトさん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>23:30～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/鴉瓜さん
+								</div>
+							</div>
+						</div>
+
+					</div>
+			</section>
+
+			<section class="area2">
+				<a id="d3" class="anchor"></a>
+				<h3>舞台 - 3日目　2/23(日)</h3>
+					<div id="list-s">
+
+						<div>
+							<h4>21:00～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/アルスさん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>21:30～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/ごーやんさん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>22:00～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/にくにくさん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>23:00～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/ろむさん
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h4>23:30～</h4>
+							<div id="list-in">
+								<div>
+									<img src="images/icon.png" class="thumbnail" data-large="images/sheet.webp" alt="">
+								</div>
+								<div class="left">
+									オーナー/やまもりうみさん
+								</div>
+							</div>
+						</div>
+
+					</div>
+			</section>
+
+			<div class="modal">
+			    <div class="modal-content">
+			        <span class="close">&times;</span>
+			        <img src="" class="modal-image" alt="モーダル画像">
+			    </div>
+			</div>
+
+			<section class="area2">
+				<a id="f1" class="anchor"></a>
+				<h3>フリマ - 企画</h3>
+
+					<div id="list-s">
+
+						<div>
+							<h4>ぬいぐるみやさん</h4>
+							<p class="left">お買い求めはお一人様ひとつのみ！<br>
+							世界各国、全てのアンティークから未開封のぬいぐるみまで<br>
+							いろんなぬいぐるみが集まっているショップです。<br>
+							企画主/うみさん</p>
+						</div>
+
+						<div>
+							<h4>奴隷おつつみ企画</h4>
+							<p class="left">「その奴隷おつつみします！」<br>
+							奴隷をお手軽にお持ち帰りするため「手のひらサイズに縮ませる魔法をかける」こと。<br>
+							ロール的にはそうなりますが、実際は「奴隷が手のひらサイズに縮んだデフォルメイラスト１枚を描き下ろす。」というもの。<br>
+							企画主/吉田さん</p>
+						</div>
+
+						<div>
+							<h4>アパレルショップ『Slave』</h4>
+							<p class="left">汎用衣装アイコンのショップです。<br>
+							奴隷に合わせてコーディネートする、という遊び方を想定しています。<br>
+							BOOTHを用いた無制限販売となります。<br>
+							企画主/ルルクスさん</p>
+						</div>
+
+						<div>
+							<h4>似顔絵屋さん</h4>
+							<p class="left">アパレルショップ『Slave』の関連企画。<br>
+							折角なら購入した衣装を着た奴隷の絵が欲しい！<br>
+							ラフでいいからこの場で頼みたい！という方向けの落書き販売企画です。<br>
+							企画主/九重みつるさん</p>
+						</div>
+
+						<div>
+							<h4>欠損フリー！マーケット</h4>
+							<p class="left">「訳アリ奴隷をお安くご用意しております！」<br>
+							欠損部位のあるB級奴隷をアウトレット価格でお安く！がテーマです。<br>
+							企画主/わざきさん</p>
+						</div>
+
+						<div>
+							<h4>欠損フリー！応援グッズ</h4>
+							<p class="left">欠損フリー！マーケットの関連企画。<br>
+							「欠損した部位に対応するイメージアクキーを作らせてください」<br>
+							pixivfactoryで製作・BOOTHにて販売。<br>
+							企画主/宮沢さん</p>
+						</div>
+
+					</div>
+			</section>
+
+			<section class="area2">
+				<a id="f2" class="anchor"></a>
+				<h3>フリマ - 個人</h3>
+
+					<div id="list-s">
+
+						<div>
+							<h4>未定</h4>
+							<p class="left">
+							<img src="images/icon.png" class="icon-s">
+							<img src="images/icon.png" class="icon-s">
+							<br>
+							オーナー/-</p>
+						</div>
+
+					</div>
 			</section>
 
 			<footer>
-		  <section class="area2">
+			<section class="area2">
 				<h4>CREDIT</h4>
 				<p>主催：<a href="https://twitter.com/I_am_rurux" target="_blank">ルルクス</a>　<a href="https://twitter.com/utsugisora" target="_blank">うつぎ</a>　<a href="https://x.com/tyomomo_to" target="_blank">佐伯</a><br>
 				イラスト：<a href="https://x.com/tyomomo_to" target="_blank">佐伯</a>　Webデザイン：<a href="https://bsky.app/profile/99cafe.bsky.social" target="_blank">いちかわ</a>　<br class="sp">ゲーム：<a href="https://twitter.com/I_am_rurux" target="_blank">ルルクス</a></p>
@@ -65,6 +359,10 @@
 			</section>
 			</footer>
 
+			<a class="pagetop" href="#"><div class="pagetop-arrow"></div></a>
+
 		</div>
+
+		<script src="doichi3.js"></script>
 	</body>
 </html>
