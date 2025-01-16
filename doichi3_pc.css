@@ -282,18 +282,21 @@ a.anchor{
 img.staff {
 	width: 40%;
 	border-radius: 5px;
+	pointer-events: none;
 }
 
 /* アイコン（小） */
 img.icon-s {
 	width: 60px;
 	border-radius: 5px;
+	pointer-events: none;
 }
 
 /* その他 */
 img.other {
 	width: 50%;
 	padding: 5% 0;
+	pointer-events: none;
 }
 
 /* メニュー(PC) */
